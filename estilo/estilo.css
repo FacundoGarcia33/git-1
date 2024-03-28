@@ -23,7 +23,6 @@ nav ul li {
               margin: 0 10px;
 }
 header {
-              background-image: url(../img/fondo.webp);
               border-bottom: .0625rem solid black;
               text-align: center;
               padding: .625rem 1.25rem;
@@ -54,7 +53,6 @@ h1 {
               font-size: 15px;
 }
 footer {
-              background-image: url(../img/fondo.webp);
               color: rgb(0, 0, 0);
 }
 .envios {
