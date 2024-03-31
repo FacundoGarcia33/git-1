@@ -6,24 +6,37 @@
               <title>primera pre entrega</title>
               <link rel="stylesheet" href="../estilo/estilo.css">
 </head>
-<body> 
-              <header>
-                            <a>
-                            <img class="logo" src="../img/logo2.jpg" alt="logo">
-                            </a>    
-                            <nav>
-                            <ul>
-                                          <li><a href="./index.html">inicio</a></li>
-                                          <li><a href="./sucursale.html">sucursales</a></li>
-                                          <li><a href="./comidas.html">comidas</a></li>
-                                          <li><a href="./contacto.html">comunicate con nostros</a></li>
-                                          <li><a href="./info.html">¿quines somos?</a></li> 
-                            </ul>
-                             </nav>
+<body class="fondo">
+              <header class="header">
+                <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                  <div class="container-fluid">
+                    <a class="navbar-brand" href="../index.html">inicio</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                          <a class="nav-link active" aria-current="page" href="./comidas.html">comidas</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="./secursales.html">sucursales</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="./contacto.html">comunicate</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="./info.html">mas sobre nosotros</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </nav>
               </header>
               <main>
                             <div>
-                                          <h1>Conoce nuestros locales!</h1>
+                                          <h1>conoce nuestros locales!</h1>
                                           <h3 class="mendoza">las mejores de mendoza</h3>
                                           <section class="sucursales" >
                                                         <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d107249.2004712813!2d-68.92202945765791!3d-32.857494969281355!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2sar!4v1709248184320!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
@@ -33,10 +46,29 @@
                                           </section>
                             </div>
               </main> 
-              <footer>
-                            <h3>Seguinos en intragram y twitter</h3>
-                            <hr>
-                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perspiciatis nesciunt odit delectus! Provident eligendi, facilis et in totam, odio laboriosam molestiae magnam adipisci quasi error repellendus illo voluptas veritatis esse.</p>
-              </footer>
+              <footer class="fondo d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+                            <p class="col-md-4 mb-0 text-body-secondary">&copy; 2024 por, Facundo Garcia</p>
+                        
+                            <a href="/"
+                              class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+                              <svg class="bi me-2" width="40" height="32">
+                                <use xlink:href="#bootstrap" />
+                              </svg>
+                            </a>
+                        
+                            <ul class="nav col-md-4 justify-content-end">
+                              <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Home</a></li>
+                              <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Features</a></li>
+                              <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Pricing</a></li>
+                              <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">FAQs</a></li>
+                              <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">About</a></li>
+                            </ul>
+                          </footer>
+                          <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+                            integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+                            crossorigin="anonymous"></script>
+                          <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+                            integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+                            crossorigin="anonymous"></script>
 </body>
 </html>

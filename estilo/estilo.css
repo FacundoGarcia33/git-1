@@ -1,14 +1,11 @@
 * {
               margin: 0%;
               padding: 0;
+              box-sizing: border-box;
 }
 a {
               text-transform: uppercase;
-              font-weight: bold;
-              
-}
-body {
-              background-color: rgba(95, 158, 160, 0.534);
+              font-weight: bold;             
 }
 .logo{
               height: 9.375rem;
@@ -28,9 +25,6 @@ header {
               text-align: center;
               padding: .625rem 1.25rem;
 }
-header nav ul li a {
-              color: rgb(235, 6, 6);
-}
 main section div img {
               height: 25rem;
               width: 40.625rem;
@@ -38,9 +32,6 @@ main section div img {
 }
 .datos {
               font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-h1 {
-              text-align: center;
 }
 .sucursales {
               text-align: center;
@@ -53,22 +44,72 @@ h1 {
               text-align: center;
               font-size: 15px;
 }
-footer {
-              background-image: url(../img/fondo.webp);
-              color: rgb(0, 0, 0);
+h5{
+              font-size: 22px;
+              font-family: Arial, Helvetica, sans-serif;
+              color: black;
+              border: outset black 5px;
+              margin: 10px;
 }
-.envios {
+.presentacion {
+              
               text-align: center;
+              font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+              font-size: 40px;
 }
-.contacto {
-              text-align: center;
+.heing{
+              height: 500px;
+              width: 60%;
+              margin: 25px;
 }
-.ensalada {
-             
-            text-align: center;
+.header {
+              color: black;
+              font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.header:hover {
+              font-size: 25px;
+              text-decoration: underline;
+              background-color: rgba(0, 0, 0, 0.055);
 }
 .img-comidas {
               width: 40%;
               height: auto;
 
+}
+.inicioImg {
+              display: flex;
+              flex-direction: row-reverse;
+              
+}
+.inicioImg2 {
+              display: flex;
+              flex-direction: row;
+              
+}
+.fondo {
+              background-color: rgba(158, 157, 157, 0.253);
+}
+.ensaladaInicio {
+              height: 400px;
+              width: 500px;
+}
+.imgCards {
+              width: 284px;       
+}
+.presentacion2 {
+              text-align: center;
+              font-size: 50px;
+              font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+              background-color: rgba(0, 0, 0, 0.377);
+} 
+
+.productos {
+              display: grid;
+              grid-template-columns: repeat(4,1fr);
+              justify-content: space-around;
+}
+.presentacion3 {
+              font-size: 30px;
+              font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+              color: black;
 }
