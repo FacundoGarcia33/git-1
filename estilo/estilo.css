@@ -3,6 +3,10 @@
               padding: 0;
               box-sizing: border-box;
 }
+html, body {
+    width: 100%!important;
+    overflow-x: hidden!important;
+}
 a {
               text-transform: uppercase;
               font-weight: bold;             
@@ -56,6 +60,16 @@ h5{
               text-align: center;
               font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
               font-size: 40px;
+}
+.ofertas{
+
+              text-align: center;
+              font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+              font-size: 40px;
+              color: red;
+}
+.ofertas:hover {
+              font-size: 60px;
 }
 .heing{
               height: 500px;
@@ -112,4 +126,162 @@ h5{
               font-size: 30px;
               font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
               color: black;
+}
+.local1 {
+              width: 800px;
+              height: 450px;
+}
+.locales {
+              display: flex;
+              flex-direction: row;
+              border: 2px solid black;
+              justify-content: space-between;
+}
+.ubicacion {
+              text-align: center;
+              margin: 35px;
+              font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.ubicacion:hover {
+              font-size: 30px;
+}
+.ofertas-2{
+              text-align: center;
+              text-decoration: underline;
+              border: 3px solid black;
+}
+.luisito {
+              width: 600px;
+              height: 500px;
+}
+.luisito2 {
+              display: flex;
+              flex-direction: row;
+              justify-content: center;
+}
+form {
+              max-width: 400px;
+              margin: 0 auto;
+          }
+label 
+          {
+              display: block;
+              margin-bottom: 10px;
+          }
+          input[type="text"],
+          input[type="email"],
+          textarea {
+              width: 100%;
+              padding: 10px;
+              margin-bottom: 20px;
+              border: 1px solid #ccc;
+              border-radius: 5px;
+}  input[type="submit"] {
+              background-color: #007bff;
+              color: #fff;
+              border: none;
+              padding: 10px 20px;
+              border-radius: 5px;
+              cursor: pointer;
+             }
+input[type="submit"]:hover {
+              background-color: #0056b3;
+}
+.historia {
+              display: flex;
+              flex-direction: row;
+              color: black;
+              margin: 15px;
+              justify-content: space-around;
+}
+.historiaBarra {
+    border: 4px solid black;
+}
+.historia2 {
+    display: flex;
+    flex-direction: row-reverse;
+    color: black;
+    margin: 15px;
+    justify-content: space-between;
+}
+@media (max-width: 48rem) {
+    .inicioImg{
+        display: flex;
+        flex-direction: column;
+        border: none;
+    }
+    h5 {
+        border: none;
+    }
+    .chefInicio{
+        width: 100%;
+    }
+    .inicioImg2 {
+        display: flex;
+        flex-direction: column;
+    }
+    .ensaladaInicio{
+        width: 100%;
+    }
+    .locales {
+        display: flex;
+        flex-direction: column;
+        border: none;
+    }
+    .local1{
+        text-align: center;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .productos {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        
+    }
+}
+@media (max-width: 26.5625rem){
+    .local1{
+        width: 100%;
+    }
+    .locales{
+        width: 100%;
+    }
+    .historia {
+        display: flex;
+        flex-direction: column-reverse;
+        color: black;
+        margin: 15px;
+        justify-content: space-around;
+    }
+    .historiaBarra {
+        border: none;
+        margin: 10px;
+    }   
+    .historia2 {
+        display: flex;
+        flex-direction: column-reverse;
+        color: black;
+        margin: 15px;
+        justify-content: space-around;
+    }
+    .productos {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+        grid-gap: 1rem;
+}   
+}
+@media (max-width: 20rem){
+    .productos {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            grid-gap: 1rem;
+    }   
+}
+@media (min-width: 33.125rem){
+    .productos {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+        grid-gap: 1rem;
+}   
 }
